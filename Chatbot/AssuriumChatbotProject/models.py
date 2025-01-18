@@ -1,5 +1,5 @@
 # AssuriumChatbotProject/models.py
-from database import get_db_connection
+from AssuriumChatbotProject.database import get_db_connection
 
 class Book:
     @staticmethod

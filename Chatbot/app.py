@@ -1,9 +1,15 @@
+from flask import Flask, request, jsonify, render_template
 from AssuriumChatbotProject.chatbot_engine import ChatbotEngine
-from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 chatbot = ChatbotEngine()
 
+# Root route to serve the index.html file
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+# Chatbot API endpoint
 @app.route("/chat", methods=["POST"])
 def chat():
     """

@@ -74,3 +74,7 @@ def init_database():
         return False
     finally:
         conn.close()
+
+
+def insert_sample_data():
+    return None

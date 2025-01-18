@@ -1,6 +1,8 @@
 # AssuriumChatbotProject/data_loader.py
+from typing import List, Tuple, Dict
+
 import psycopg2
-from typing import List, Tuple, Dict, Optional
+
 
 class DataLoader:
     def __init__(self, db_config: Dict[str, str]):
