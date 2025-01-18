@@ -1,0 +1,22 @@
+AssuriumChatbotProject/
+|-- .venv/                          # Virtual environment (optional)
+|-- AssuriumChatbotProject/         # Main package directory
+|   |-- __init__.py                 # Makes the directory a Python package
+|   |-- chatbot.py                  # Chatbot logic (CLI version)
+|   |-- chatbot_engine.py           # Chatbot engine (NLP and query handling)
+|   |-- data_loader.py              # Data loading logic (if needed)
+|   |-- database.py                 # Database connection and queries
+|   |-- models.py                   # Data models (Book, Chapter, Paragraph)
+|   |-- utils.py                    # Utility functions
+|-- templates/                      # HTML templates for the web interface
+|   |-- index.html                  # Combined chatbot and quiz interface
+|-- static/                         # Static files (CSS, JS, images)
+|   |-- styles.css                  # Combined CSS for chatbot and quiz
+|   |-- script.js                   # Quiz logic (JavaScript)
+|   |-- autoQuestions.js            # Auto insurance questions (JavaScript)
+|   |-- houseQuestions.js           # House insurance questions (JavaScript)
+|   |-- commercialQuestions.js      # Commercial insurance questions (JavaScript)
+|-- app.py                          # Flask application entry point
+|-- README.md                       # Project documentation
+|-- requirements.txt                # Python dependencies
+|-- setup.py                        # Package setup file (optional)
